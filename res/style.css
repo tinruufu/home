@@ -42,8 +42,17 @@ p, ul {
 }
 
 li {
-  margin-left: 1.3em;
+  list-style: none;
+  margin-left: 0.7em;
   margin-bottom: 0.5em;
+  position: relative;
+}
+
+li::before {
+  content: '・';
+  position: absolute;
+  left: -1em;
+  top: 0.05em;
 }
 
 #attrib {
