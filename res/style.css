@@ -30,6 +30,22 @@ body::before {
   border-radius: 0.5em;
 }
 
+section {
+  padding-bottom: 1em;
+}
+
+section::before {
+  content: '•';
+  display: block;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: .5em;
+}
+
+section:first-child::before {
+  content: none;
+}
+
 a {
   text-decoration: none;
   color: #d6d;
