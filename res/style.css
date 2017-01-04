@@ -20,12 +20,12 @@ body.error {
 
 body::before {
   content: " ";
-  margin: 5vw auto 3vw;
+  margin: 3vw auto;
   display: block;
-  height: 5em;
-  width: 5em;
-  background-image: url('av.png');
-  background-size: cover;
+  height: 16em;
+  width: 8em;
+  background-image: url('1.png');
+  background-size: contain;
   background-position: center center;
   border-radius: 0.5em;
 }
@@ -80,4 +80,8 @@ li::before {
   margin: 5vw 0;
   text-align: center;
   font-size: 0.9em;
+}
+
+#attrib::before {
+  content: none; 
 }
