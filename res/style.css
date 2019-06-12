@@ -22,12 +22,14 @@ body::before {
   content: " ";
   margin: 3vw auto;
   display: block;
+  width: 16em;
   height: 16em;
-  width: 8em;
-  background-image: url('1.png');
+  max-width: 75vw;
+  max-height: 75vw;
+  background-image: url('kitt/01.png');
   background-size: contain;
   background-position: center center;
-  border-radius: 0.5em;
+  background-repeat: no-repeat;
 }
 
 section {
